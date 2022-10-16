@@ -1,0 +1,327 @@
+﻿.button-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    background: #6E6D70;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin:10px
+}
+
+    .button-12:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
+    }
+
+.button-13 {
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    background: #6E6D70;
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+    color: #DFDEDF;
+    font-size:23px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left:42%;
+    margin-bottom:50px;
+}
+
+    .button-13:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
+    }
+
+.donate {
+    background-color: red;
+    border-radius: 25px;
+}
+
+.textbox {
+    padding: 0;
+    font-family: "Bahnschrift"
+}
+
+div.portfolio {
+    width: 1100px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 680px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.gallery {
+    margin: 0;
+    border: 0 solid #ccc;
+    float: left;
+    height: auto;
+    padding: 0;
+    font-size: 0;
+    width: 25%;
+}
+
+img.bw {
+    border: 0;
+    height: 200px;
+    width: 289px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .01s ease-in-out;
+}
+
+    img.bw:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+        -webkit-transform: scale(1.01);
+    }
+
+    .logo{
+        height:35px
+    }
+
+div.footer {
+    text-align: left;
+    background-color: #66CCCC;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+div.link {
+    border: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.one:link {
+    color: white;
+}
+
+a.one:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.one:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+
+div.forms{
+    margin-top:30px;
+    margin-bottom:50px
+}
+div.form {
+    margin-top: 30px;
+    margin-bottom: 250px
+}
+
+
+.master2 {
+    width: 100%;
+    height: 611px;
+    object-fit: cover
+}
+
+div.content {
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.topic {
+    text-align: center;
+    background-color: #66CCCC;
+    font-family: 'Lucida Handwriting';
+    font-size: 40px;
+    color: white;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+    p.brief {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        text-align: center
+    }
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+fieldset {
+    padding: 1em;
+    width:600px;
+    border: 2px solid #ccc;
+}
+
+
+    fieldset.insert{
+        display: block;
+    }
+
+
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+    border: 2px solid #ccc;
+    width: 180px;
+    text-align: center;
+}
+
+div.addDog {
+    width: 100%;
+    height: 1350px;
+}
+
+div.addProfile {
+    margin-bottom: 50px;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+    margin-bottom:50px;
+}
+
+/* Create 6 equal columns that floats next to each other */
+
+.column6 {
+    float: left;
+    width: 18%;
+    padding: 10px;
+}
+
+
+
+/*Repeater images*/
+    .preview {
+    object-fit: cover;
+    margin-right:30px;
+    margin-bottom:10px
+}
+
+.howtoadopt {
+    margin-bottom: 50px;
+    margin-right: 5%;
+    margin-left: 14%;
+}
+
+
+div.donatebutton {
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+/* Create 2 equal columns that floats next to each other */
+
+div.columnleft {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+div.columnright {
+    float: right;
+    width: 40%;
+    padding: 10px;
+}
+
+.center {
+    justify-content: center;
+    display: flex;
+}
+
+/*scrolling tables*/
+div.scrolltable {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.management {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
